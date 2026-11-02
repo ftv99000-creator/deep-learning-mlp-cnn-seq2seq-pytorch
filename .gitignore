@@ -1,0 +1,59 @@
+# ===== Secrets / clés API =====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== Dataset CIFAR-10 (téléchargeable automatiquement) =====
+cifar-10-python.tar.gz
+cifar-10-batches-py/
+data_batch_*
+test_batch
+batches.meta
+readme.html
+data/
+datasets/
+
+# ===== Modèles et checkpoints (deep learning) =====
+*.h5
+*.keras
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.npy
+*.npz
+*.zip
+*.tar.gz
+checkpoints/
+runs/
+lightning_logs/
+wandb/
+
+# ===== Python / Jupyter =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# ===== Logs et fichiers temporaires =====
+*.log
+logs/
+tmp/
+*.tmp
+*.bak
+
+# ===== Éditeurs / IDE =====
+.vscode/
+.idea/
+*.swp
+
+# ===== Système =====
+.DS_Store
+Thumbs.db
